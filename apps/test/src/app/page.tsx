@@ -1,8 +1,7 @@
-import React from 'react'
 import { Button } from '@repo/ui/components/ui/button'
 import { cn } from '@repo/ui/lib/utils'
 
-const App: React.FC = () => {
+export default function Page(): JSX.Element {
   return (
     <>
       <Button variant="destructive" className="px-14">
@@ -14,5 +13,3 @@ const App: React.FC = () => {
     </>
   )
 }
-
-export default App
